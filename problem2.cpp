@@ -10,12 +10,14 @@ int main() {
         cin>>arr[i];
     }
 
-    sort(arr,arr+n,greater<int>());
+    sort(arr,arr+n);
     cout<<division(arr,n);
 }
 int division(int arr[], int n) {
-    int k=arr[n-1];
-    for(int i=0;i<n;i++) {
+    int k=arr[0];
+    int i=0;
+   while(i<n){
+       i++;
         if(arr[i]%k==0) {
             return k;
         } {return -1;}
