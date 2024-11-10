@@ -24,12 +24,12 @@ int sort(int arr[],int n) {
 }
 
 int main() {
-    int n;
+    int i;
     cout<<"n=";
-    cin>>n;
-    int prices[n];
-    for(int i=0;i<n;i++) {
+    cin>>i;
+    int prices[i];
+    for(int n=0;n<i;i++) {
         cin>>prices[i];
     }
-    cout<<sort(prices,n);
+    cout<<sort(prices,i);
 }
