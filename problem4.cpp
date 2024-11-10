@@ -25,6 +25,7 @@ int sort(int arr[],int n) {
 
 int main() {
     int n;
+    cout<<"n=";
     cin>>n;
     int prices[n];
     for(int i=0;i<n;i++) {
